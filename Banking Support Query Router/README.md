@@ -179,7 +179,3 @@ print(clf("My card still hasn't arrived after two weeks"))
 ```
 
 ---
-
-## ملخص بالعربي
-
-نموذج DistilBERT تم عمل Fine-tuning له لتصنيف رسائل دعم عملاء البنك إلى 77 فئة (Intent). المشروع يشمل مراجعة البيانات وتنظيفها، التدريب والتقييم (Accuracy / Precision / Recall / F1)، وتجربة تحسين لمعالجة الأخطاء الإملائية بالـ Data Augmentation، واختبار على رسائل جديدة، وDemo تفاعلي.
