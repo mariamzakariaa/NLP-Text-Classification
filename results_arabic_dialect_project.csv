@@ -1,0 +1,4 @@
+run,val_f1_macro,test_accuracy,test_precision_macro,test_recall_macro,test_f1_macro,test_f1_weighted
+B1 MARBERT baseline,0.5222,0.7975,0.5211,0.4788,0.4924,0.7882
+B2 MARBERT + class weights,0.6375,0.767,0.5327,0.5647,0.5327,0.7733
+B3 CAMeLBERT-DA + class weights,0.5949,0.7521,0.4818,0.5555,0.5095,0.7614
