@@ -119,6 +119,10 @@ I probed several closely related intents about currencies and exchange to see ho
 | What currencies are supported? | fiat_currency_support | 0.99 | Correct |
 | Do you support euros? | fiat_currency_support | 0.98 | Correct |
 
+<p align="center">
+  <img src="banking_support.png" alt="Demo 1">
+</p>
+
 ### Error Analysis
 
 The model incorrectly classified "How much is one euro worth?" as `exchange_charge` instead of `exchange_rate`.
