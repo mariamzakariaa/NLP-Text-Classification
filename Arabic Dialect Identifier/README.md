@@ -111,6 +111,12 @@ B2 showed a slight improvement in Egyptian precision but unchanged recall, a dec
 
 The strongest dialects (Egyptian, Gulf, Levantine) work well on clear sentences. Maghrebi fails, consistent with the tiny amount of training data. Low confidence scores (below about 0.5) signal an unreliable prediction.
 
+<p align="center">
+  <img src="arabic-dialect%20(1).png" width="500" alt="Demo 1">
+  <img src="arabic-dialect%20(2).png" width="500" alt="Demo 2">
+  <img src="arabic-dialect%20(3).png" width="500" alt="Demo 3">
+</p>
+
 ## Limitations
 
 - **Single run per configuration, one seed, no confidence intervals.** The B2 vs B3 gap (0.5327 vs 0.5095 test macro-F1) is small, so don't read it as a firm ranking. B2 vs the baseline on macro-recall is a larger gap.
